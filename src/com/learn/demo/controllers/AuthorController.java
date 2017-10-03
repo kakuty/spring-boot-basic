@@ -4,7 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.learn.repositories.AuthorRepository;
+import com.learn.demo.repositories.AuthorRepository;
 
 @Controller
 public class AuthorController {

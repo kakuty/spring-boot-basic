@@ -8,12 +8,12 @@ import org.springframework.stereotype.Component;
 import com.learn.demo.model.Author;
 import com.learn.demo.model.Book;
 import com.learn.demo.model.Publisher;
-import com.learn.repositories.AuthorRepository;
-import com.learn.repositories.BookRepository;
-import com.learn.repositories.PublisherRepository;
+import com.learn.demo.repositories.AuthorRepository;
+import com.learn.demo.repositories.BookRepository;
+import com.learn.demo.repositories.PublisherRepository;
 
 @Component
-@EnableJpaRepositories("com.learn.repositories")
+@EnableJpaRepositories("com.learn.demo.repositories")
 public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent>{
 	
 	private AuthorRepository authoRepository;

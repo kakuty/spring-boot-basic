@@ -1,4 +1,4 @@
-package com.learn.repositories;
+package com.learn.demo.repositories;
 
 import com.learn.demo.model.Author;
 import org.springframework.data.repository.CrudRepository;
